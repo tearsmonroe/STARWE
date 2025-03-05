@@ -128,7 +128,7 @@ html, body {
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url("https://sites.google.com/site/konoplevmedia/coverstart2.png");
+ background-image: url("https://raw.githubusercontent.com/tearsmonroe/STARWE/refs/heads/main/og_og_15229292572445459_16x9.png");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -137,9 +137,50 @@ html, body {
  background-position: top center;
 }
 
+#landing .parallax-two {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githubusercontent.com/tearsmonroe/STARWE/refs/heads/main/istock-949118068_c29_16x9.png");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+#landing .parallax-one {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githubusercontent.com/tearsmonroe/STARWE/refs/heads/main/0034b5ed-e854-55fb-a979-08395980b3e1_16x9.png");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
 
 #landing .line-break {
  background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+ width: 100%;
+ margin: 0 auto;
+}
+
+#landing .line-break {
+ background: linear-gradient(60deg, #ffd700, #dc143c, #008000);
+ width: 100%;
+ margin: 0 auto;
+}
+
+#landing .line-break {
+ background: linear-gradient(60deg, #dc143c, #008000, #ffd700);
  width: 100%;
  margin: 0 auto;
 }
@@ -150,6 +191,7 @@ html, body {
   width: 620px;
  }
 }
+
 @media screen and (max-width: 767px) {
  #flat .block {
   padding: 30px;
@@ -166,6 +208,7 @@ html, body {
   padding-bottom: 100px;
  }
 }
+
 @media screen and (max-width: 479px) {
  #flat .block {
   padding: 30px 15px;
@@ -173,75 +216,8 @@ html, body {
  }
 }
 
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Landing</title>
-  
-  <body>
 
-<div class="box">
-<div id="landing">
-
-<section>
-   <div class="title">
-    <h3>Заголовок старта</h3>
-    <h1>Крупный заголовок</h1>
-    <h3>Заголовок финала</h3>
-   </div>
-  </section>
-  
-    <section>
-   <div class="parallax-one">
-    <h2>Заголовок раздела</h2>
-   </div>
-  </section>
-  
-    <section>
-   <div class="block">
-    <p><span class="first-character fl">В</span>ваш текст.</p>
-	
-	<p class="line-break margin-top-10"></p>
-	
-	   <p class="margin-top-10">Продолжение вашего текста </p>
-   </div>
-  </section>
-  
-  <section>
-   <div class="parallax-one">
-    <h2>Заголовок раздела</h2>
-   </div>
-  </section>
-  
-    <section>
-   <div class="block">
-    <p><span class="first-character fl">В</span>ваш текст.</p>
-	
-	<p class="line-break margin-top-10"></p>
-	
-	   <p class="margin-top-10">Продолжение вашего текста </p>
-   </div>
-  </section>
-  
-  <section>
-   <div class="parallax-one">
-    <h2>Заголовок раздела</h2>
-   </div>
-  </section>
-  
-    <section>
-   <div class="block">
-    <p><span class="first-character fl">В</span>ваш текст.</p>
-	
-	<p class="line-break margin-top-10"></p>
-	
-	   <p class="margin-top-10">Продолжение вашего текста </p>
-   </div>
-  </section>
-  
   </div>
   </body>
-  </html>
   
   
