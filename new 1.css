@@ -134,7 +134,7 @@ html, body {
  -moz-background-size: cover;
  -webkit-background-size: cover;
  background-repeat: no-repeat;
- background-position: top center;
+ background-position: center center;
 }
 
 #landing .parallax-two {
