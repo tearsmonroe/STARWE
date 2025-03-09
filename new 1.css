@@ -167,23 +167,23 @@ html, body {
  background-position: center center;
 }
 
-#landing .line-break "1" {
- background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
- width: 100%;
- margin: 0 auto;
-}
+  #landing .line-break-green {
+    background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+    width: 100%;
+    margin: 0 auto;
+  }
 
-#landing .line-break "2" {
- background: linear-gradient(60deg, #ffd700, #dc143c, #008000);
- width: 100%;
- margin: 0 auto;
-}
+  #landing .line-break-blue {
+    background: linear-gradient(60deg, #0000ff, #00ffff, #ff1493);
+    width: 100%;
+    margin: 0 auto;
+  }
 
-#landing .line-break "3" {
- background: linear-gradient(60deg, #dc150c, #008000, #ffd700);
- width: 100%;
- margin: 0 auto;
-}
+  #landing .line-break-purple {
+    background: linear-gradient(60deg, #800080, #dda0dd, #ff69b4);
+    width: 100%;
+    margin: 0 auto;
+  }
 
 @media screen and (max-width: 959px) and (min-width: 768px) {
  #flat .block {
